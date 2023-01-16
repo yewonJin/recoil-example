@@ -9,8 +9,8 @@ export default function TodoButton() {
       <span
          className="w-20 h-20 absolute flex justify-center items-center -bottom-10 rounded-full bg-rose-900 text-white hover:cursor-pointer hover:bg-rose-700 duration-150"
          onClick={() =>{
-            if(todoList[todoList.length-1].content === '') {
-               console.log('먼저 입력하시오')
+            if (todoList.length !== 0 && todoList[todoList.length - 1].content === '') {
+               console.log('먼저 입력하시오');
                return;
             }
 
