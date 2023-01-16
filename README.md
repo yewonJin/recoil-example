@@ -1,6 +1,8 @@
-# recoil-example
+# recoil-example 
 
 리액트 상태 관리 라이브러리 Recoil 공부 및 예제(Todo App)
+
+<img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat&logo=TailwindCSS&logoColor=white"/>
 
 https://user-images.githubusercontent.com/102349522/212667772-ce30b769-68fb-440b-b873-606d9966008c.mp4
 
