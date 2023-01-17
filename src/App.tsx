@@ -1,17 +1,19 @@
 import { useRecoilValue } from "recoil";
-import { todoState } from './store/Todo'
+import { filteredTodoListState } from './store/Todo'
 import Template from "./components/Template";
 import TodoButton from "./components/Todo/TodoButton";
 import TodoItem from "./components/Todo/TodoItem";
 import TodoList from "./components/Todo/TodoList";
 import DateForm from "./components/Date";
+import TodoTag from "./components/Todo/TodoTag";
 
 function App() {
-   const todos = useRecoilValue(todoState)
+   const todos = useRecoilValue(filteredTodoListState)
 
    return (
       <Template>
-         <DateForm />
+         <DateForm />     
+         <TodoTag />    
          <TodoList>
             {todos.map((todo) => <TodoItem todo={todo}/>)}
          </TodoList>
